@@ -1,0 +1,46 @@
+*{
+
+margin:5px 0px 3px 0px  ;
+padding:0px;
+font-family: 'Roboto', sans-serif;
+}
+
+
+
+
+
+
+body{
+
+
+
+
+  background: #DADADA;
+}
+
+
+.site{
+  background: #FFFFFF;
+  width: 800px;
+  /* centralizando divs?elementos */
+  margin: 0px auto;
+ padding: : 50px;
+
+}
+.site .conteudo{
+
+
+min-height: 300px;
+margin: 15px 0px;
+padding:15px 0px;
+ border-top: solid 5px #adadad;
+ border-bottom: solid 5px #adadad;
+
+}
+.site .topo{
+font-family: 'Bellota', cursive;
+text-align: center;
+}
+.site .rodape{
+  font-family: 'Bellota', cursive;
+}
