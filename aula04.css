@@ -1,6 +1,6 @@
 *{
 
-margin:5px 0px 3px 0px  ;
+margin:5px 0px 5px 0px  ;
 padding:0px;
 font-family: 'Roboto', sans-serif;
 }
@@ -36,6 +36,7 @@ padding:15px 0px;
  border-top: solid 5px #adadad;
  border-bottom: solid 5px #adadad;
 
+border-width: 5px;
 }
 .site .topo{
 font-family: 'Bellota', cursive;
@@ -43,4 +44,60 @@ text-align: center;
 }
 .site .rodape{
   font-family: 'Bellota', cursive;
+}
+
+.botao{
+font-size: 18px;
+text-decoration:none;
+padding: 10px 20px;
+display: inline-block;
+border-radius: 25px;
+}
+.botao-azul:hover{
+  background-color: #6666ff;
+
+}
+.botao-azul{
+  background-color: #3251a8;
+border: solid 1px #1a1aff;
+}
+.botao-vermelho:hover{
+  background-color:#ff3333;
+}
+.botao-vermelho{
+  background-color:  #e62e00;
+border: solid 1px #ffcc00;
+}
+.botao-verde:hover{
+  background-color:#84e184;
+}
+.botao-verde{
+  background-color: #29a329;
+border: solid 1px  #000000 ;
+
+}
+
+.menu{
+background-color:#DADADA;
+
+}
+.meun ul{
+/* remove as bolinhas da lista */
+  list-style: none;
+}
+.menu ul li{
+  /* EXIBIR OS ITENS EM LISTA */
+  display: inline-block;
+}
+.menu a{
+  /* remove o underline */
+  text-decoration:none;
+  /* transforma os links em blocos */
+  display: inline-block;
+  padding: 10px 15px;
+color: #000000;
+
+}
+.menu a:hover{
+  background-color:  #737373:
 }
